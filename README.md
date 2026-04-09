@@ -2,92 +2,105 @@
 
 **Pre-Phase A Mission Report**  
 **Master of Science in Space Engineering**  
-**University of Pisa** — Academic Year 2023/2024
+**University of Pisa** — Academic Year 2023/2024  
 
 ---
 
 ## Mission Overview
-![Dashboard Preview](HERMES poster.png)
-**HERMES** is a commercial constellation of four satellites in a southern **Halo orbit around the Earth-Moon L2 point (EML2)**. It provides:
 
-- Continuous high-data-rate relay communications between Earth and the **lunar far side**
-- Lunar Navigation Satellite System (LNSS) for precise positioning of rovers, landers, and future bases
+![Dashboard Preview](HERMES poster.png)
+
+**HERMES** is a commercial constellation of four satellites operating in a **southern Halo orbit around the Earth–Moon L2 point (EML2)**. The mission provides:
+
+- Continuous, high-data-rate relay communications between Earth and the **lunar far side**
+- A **Lunar Navigation Satellite System (LNSS)** for precise positioning of rovers, landers, and future infrastructure
 - Support for upcoming lunar missions (NASA Artemis, CNSA, ISRO, ESA, and private operators)
 
-**Key Features**
-- Data rates up to **5 Gbps** (Moon → Spacecraft) and **1 Gbps** (Spacecraft → Earth)
-- Constant visibility to both Earth and the lunar far side
-- Scalable architecture — easily expandable with northern Halo satellites
+### Key Features
+
+- Data rates up to **5 Gbps** (Moon → spacecraft) and **1 Gbps** (spacecraft → Earth)  
+- Continuous visibility of both Earth and the lunar far side  
+- Scalable architecture with potential for expansion  
 
 ---
 
 ## Selected Architecture
 
-**4 identical satellites** in a **southern Halo orbit** around EML2 (Z-amplitude ≈ 25 000 km).
+The system consists of **four identical satellites** placed in a **southern Halo orbit around EML2**, with a Z-amplitude of approximately **25,000 km**.
 
-**Why this architecture?**
-- Minimum number of satellites for reliable LNSS triangulation
-- Excellent geometric dilution of precision (GDOP)
-- Low station-keeping cost
-- Strong heritage from Queqiao and future missions (LUMIO, EQUULEUS)
+### Why this architecture?
 
-**Orbit parameters**
-- Period: ≈ 15 days
-- Designed for central-southern far-side coverage (emphasis on South Pole)
+- Minimum number of satellites required for reliable LNSS triangulation  
+- Excellent geometric dilution of precision (GDOP)  
+- Reduced station-keeping requirements  
+- Heritage from missions such as *Queqiao*, *LUMIO*, and *EQUULEUS*  
+
+### Orbit Characteristics
+
+- Orbital period: ~15 days  
+- Optimized for **central and southern far-side coverage**, with emphasis on the lunar South Pole  
 
 ---
 
 ## Satellite Design Highlights
 
-Each satellite (~200–290 kg dry mass):
+Each satellite has a dry mass of approximately **200–290 kg** and includes:
 
-**Telecommunications**
-- 9 primary antennas on Earth/Moon-facing panel + 8 redundancy antennas
-- COTS patch arrays (S/X/Ka/L bands)
-- LNSS navigation signal generation with atomic clocks
+### Telecommunications
 
-**Propulsion**
-- Chemical (hydrazine) for halo insertion
-- Electric Hall thrusters (Krypton) for station-keeping
+- 9 primary antennas (Earth- and Moon-facing panels) + 8 redundant antennas  
+- COTS patch arrays (S, X, Ka, and L bands)  
+- LNSS navigation signal generation using atomic clock technology  
 
-**Attitude Determination & Control**
-- 4 reaction wheels + 16 × 1 N hydrazine thrusters
-- Pointing accuracy ≤ ±5°
+### Propulsion
 
-**Power & Thermal**
-- ~2.5 m² GaAs solar arrays
-- 2 × 200 Wh Li-ion batteries with heaters
-- Passive thermal control (MLI + Aluminized Kapton)
+- Chemical propulsion (hydrazine) for halo orbit insertion  
+- Electric propulsion (Krypton Hall thrusters) for station-keeping  
+
+### Attitude Determination & Control System (ADCS)
+
+- 4 reaction wheels  
+- 16 × 1 N hydrazine thrusters  
+- Pointing accuracy: ≤ ±5°  
+
+### Power & Thermal Control
+
+- ~2.5 m² GaAs solar arrays  
+- Two 200 Wh Li-ion batteries with thermal heaters  
+- Passive thermal control using MLI and aluminized Kapton  
 
 ---
 
 ## Mission Budgets (Summary)
 
-| Item                  | Value                          |
-|-----------------------|--------------------------------|
-| Dry mass (per sat)    | 200–290 kg                     |
-| Propellant            | ~76 kg                         |
-| Peak power            | 900–1030 W                     |
-| Lifetime              | ≥ 7 years (+50% extension)     |
-| Launcher              | Falcon 9 (2029)                |
-| Estimated total cost  | ~1 B€ (10-year mission)        |
+| Parameter                | Value                          |
+|--------------------------|--------------------------------|
+| Dry mass (per satellite) | 200–290 kg                     |
+| Propellant               | ~76 kg                         |
+| Peak power               | 900–1030 W                     |
+| Lifetime                 | ≥ 7 years (+50% extension)     |
+| Launcher                 | Falcon 9 (2029)                |
+| Estimated total cost     | ~1 billion € (10-year mission)  |
 
 ---
 
 ## Future Expansion
 
-HERMES is explicitly designed for growth:
-- Add 4+ satellites in a **northern Halo orbit** to double coverage and capacity
-- Enables lunar GPS, high-bandwidth lunar internet, and permanent base support
+The HERMES architecture is designed for scalability:
+
+- Addition of **4+ satellites** in a **northern Halo orbit**  
+- Increased coverage and redundancy  
+- Enables:
+  - Lunar GPS-like navigation  
+  - High-bandwidth lunar communications network  
+  - Continuous support for lunar bases  
 
 ---
 
 ## Repository Contents
 
-- `Report/` — Full Pre-Phase A PDF + appendices
-- `Poster/` — Poster of the Mission
-
-
+- `Report/` — Full Pre-Phase A report (PDF + appendices)  
+- `Poster/` — Mission poster  
 
 ---
 
