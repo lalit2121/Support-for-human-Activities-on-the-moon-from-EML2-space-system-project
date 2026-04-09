@@ -8,7 +8,7 @@
 
 ## Mission Overview
 
-![Dashboard Preview](HERMES poster.png)
+![Dashboard Preview](HERMES_poster.png)
 
 **HERMES** is a commercial constellation of four satellites operating in a **southern Halo orbit around the Earth–Moon L2 point (EML2)**. The mission provides:
 
