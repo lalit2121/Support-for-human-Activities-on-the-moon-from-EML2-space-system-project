@@ -1,4 +1,4 @@
-# HERMES — Halo EaRth Moon rElay Satellites
+# HERMES: Halo EaRth Moon rElay Satellites
 
 **Pre-Phase A Mission Report**  
 **Master of Science in Space Engineering**  
