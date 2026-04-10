@@ -2,7 +2,7 @@
 
 **Pre-Phase A Mission Report**  
 **Master of Science in Space Engineering**  
-**University of Pisa** — Academic Year 2023/2024  
+**University of Pisa**  Academic Year 2023/2024  
 
 ---
 
